@@ -4,7 +4,8 @@ body{
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 50% 20px 20px;
+    background-size: contain;
+    font-family: 'Red Hat Display';
 }
 
 .wrapper{
@@ -12,6 +13,8 @@ body{
     margin: 5rem auto;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #c4bfbf;
+
 }
 .wrapper img{
     border-top-left-radius: 15px;
@@ -35,7 +38,7 @@ body{
 .price{
     display: flex;
     flex-direction: column;
-    margin-left: -5rem;
+    margin-left: -3rem;
 }
 .amount{
     color: hsl(224, 23%, 55%)
@@ -44,9 +47,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1.5em;
+
 }
 .change{
     color: hsl(225, 100%, 54%)
+}
+.change:hover{
+    color:#8a2be2;
 }
 #process{
     text-decoration: none;
@@ -58,7 +66,19 @@ body{
     margin-bottom: 1.5em;
     box-shadow: 0 15px 15px #cccbcb;
 }
+#process:hover{
+    background-color: #8a2be2;
+}
 #cancel{
     text-decoration: none;
-    color: hsl(223, 47%, 23%)
+    color: hsl(223, 47%, 23%);
+}
+#cancel:hover{
+    color: #000;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg)
+    }
 }
