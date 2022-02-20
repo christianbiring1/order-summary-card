@@ -77,8 +77,20 @@ body{
     color: #000;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
     body{
         background-image: url(images/pattern-background-mobile.svg)
+    }
+    .wrapper img{
+        width: 100%;
+    }
+    .receival{
+        margin-left: -2rem;
+    }
+    .receival img{
+        width: 20%;
+    }
+    #process{
+        padding: .5em 4em;
     }
 }
