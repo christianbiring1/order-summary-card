@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 20px 20px;
+}
