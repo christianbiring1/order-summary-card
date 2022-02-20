@@ -10,7 +10,7 @@ body{
 .wrapper{
     max-width: 450px;
     margin: 5rem auto;
-    background-color: #fff;
+    background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
 }
 .wrapper img{
@@ -21,7 +21,10 @@ body{
 #container{
     padding: 0 5rem;
     text-align: center;
-    opacity: .65;
+    
+}
+#container p{
+    color: hsl(224, 23%, 55%)
 }
 .receival{
     display: flex;
@@ -35,11 +38,27 @@ body{
     margin-left: -5rem;
 }
 .amount{
-    opacity: .6;
+    color: hsl(224, 23%, 55%)
 }
 .payment{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.change{
+    color: hsl(225, 100%, 54%)
+}
+#process{
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    padding: .5em 8em;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 1.5em;
+    box-shadow: 0 15px 15px #cccbcb;
+}
+#cancel{
+    text-decoration: none;
+    color: hsl(223, 47%, 23%)
+}
