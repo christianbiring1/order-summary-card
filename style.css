@@ -17,3 +17,29 @@ body{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+#container{
+    padding: 0 5rem;
+    text-align: center;
+    opacity: .65;
+}
+.receival{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  2rem 5rem; 
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-left: -5rem;
+}
+.amount{
+    opacity: .6;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
